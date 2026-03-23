@@ -1,0 +1,10 @@
+{
+  "domain": "cowork",
+  "name": "Home Assistant Co-Work",
+  "codeowners": [],
+  "dependencies": [],
+  "documentation": "https://github.com/custom-components/cowork",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/custom-components/cowork/issues",
+  "version": "0.0.1"
+}
