@@ -1,5 +1,8 @@
 # Home Assistant Cowork
 
+> [!WARNING]
+> **Early Experimental Phase:** This project is in its very early stages of development. Expect bugs, breaking changes, and incomplete features. It is not yet recommended for production environments.
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
 Home Assistant Cowork is a next-generation AI assistant interface for Home Assistant (HA). Inspired by modern conversational AI interfaces, this project bridges the gap between natural language interaction and interactive smart home management.
