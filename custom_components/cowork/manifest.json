@@ -3,8 +3,8 @@
   "name": "Home Assistant Co-Work",
   "codeowners": [],
   "dependencies": [],
-  "documentation": "https://github.com/custom-components/cowork",
+  "documentation": "https://github.com/oded996/home-assistant-cowork",
   "iot_class": "cloud_push",
-  "issue_tracker": "https://github.com/custom-components/cowork/issues",
+  "issue_tracker": "https://github.com/oded996/home-assistant-cowork/issues",
   "version": "0.0.1"
 }
