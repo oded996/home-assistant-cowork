@@ -1,6 +1,6 @@
 {
   "domain": "cowork",
-  "name": "Home Assistant Co-Work",
+  "name": "Home Assistant Cowork",
   "codeowners": [],
   "dependencies": [],
   "documentation": "https://github.com/oded996/home-assistant-cowork",

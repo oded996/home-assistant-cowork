@@ -1,3 +1,3 @@
-"""Constants for the Home Assistant Co-Work integration."""
+"""Constants for the Home Assistant Cowork integration."""
 
 DOMAIN = "cowork"

@@ -1,4 +1,4 @@
-"""The Home Assistant Co-Work integration."""
+"""The Home Assistant Cowork integration."""
 from __future__ import annotations
 
 import logging
@@ -10,7 +10,7 @@ from .const import DOMAIN
 _LOGGER = logging.getLogger(__name__)
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up Home Assistant Co-Work from a config entry."""
+    """Set up Home Assistant Cowork from a config entry."""
     hass.data.setdefault(DOMAIN, {})
     
     # In Phase 1, we will register WebSocket endpoints here

@@ -1,9 +1,9 @@
-# Product & Technical Specification: Home Assistant Co-Work
+# Product & Technical Specification: Home Assistant Cowork
 
 ## 1. Executive Summary
-Home Assistant Co-Work is a next-generation AI assistant interface for Home Assistant (HA). Inspired by the "Claude Artifacts" UI paradigm, this project bridges the gap between conversational AI and interactive smart home management. 
+Home Assistant Cowork is a next-generation AI assistant interface for Home Assistant (HA). Inspired by the "Claude Artifacts" UI paradigm, this project bridges the gap between conversational AI and interactive smart home management. 
 
-Instead of generating YAML for the user to copy/paste, or returning plain text lists of device states, Co-Work dynamically renders native Home Assistant UI components (Lovelace cards, graphs, control entities) directly inline within the chat stream. 
+Instead of generating YAML for the user to copy/paste, or returning plain text lists of device states, Cowork dynamically renders native Home Assistant UI components (Lovelace cards, graphs, control entities) directly inline within the chat stream. 
 
 ## 2. Core Objectives & Target Use Cases
 The system must be capable of interpreting natural language to perform complex HA tasks, returning both text explanations and interactive UI elements. 
