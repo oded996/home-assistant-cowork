@@ -2,9 +2,11 @@
   "domain": "cowork",
   "name": "Home Assistant Cowork",
   "codeowners": [],
-  "dependencies": [],
+  "dependencies": ["recorder", "history"],
+  "after_dependencies": ["frontend", "panel_custom"],
   "documentation": "https://github.com/oded996/home-assistant-cowork",
   "iot_class": "cloud_push",
+  "config_flow": true,
   "issue_tracker": "https://github.com/oded996/home-assistant-cowork/issues",
   "version": "0.0.1"
 }
