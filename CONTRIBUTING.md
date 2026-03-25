@@ -1,6 +1,6 @@
-# Contributing to Home Assistant Cowork
+# Contributing to Cowork for Home Assistant
 
-First off, thank you for considering contributing to Home Assistant Cowork! It's people like you who make the open-source community such an amazing place to learn, inspire, and create.
+First off, thank you for considering contributing to Cowork for Home Assistant! It's people like you who make the open-source community such an amazing place to learn, inspire, and create.
 
 ## How Can I Contribute?
 

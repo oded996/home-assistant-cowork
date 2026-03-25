@@ -1,6 +1,6 @@
 {
   "domain": "cowork",
-  "name": "Home Assistant Cowork",
+  "name": "Cowork for Home Assistant",
   "codeowners": [],
   "dependencies": ["recorder", "history"],
   "after_dependencies": ["frontend", "panel_custom"],

@@ -23,7 +23,7 @@ class CoworkAPI(llm.API):
         return llm.APIInstance(
             api=self,
             api_prompt=(
-                "You are the Home Assistant Cowork Administrator Agent. "
+                "You are the Cowork for Home Assistant Administrator Agent. "
                 "Always reply with text. Use tools to query information when needed."
             ),
             llm_context=llm_context,

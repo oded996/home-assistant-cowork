@@ -1,11 +1,11 @@
-# Home Assistant Cowork
+# Cowork for Home Assistant
 
 > [!WARNING]
 > **Early Experimental Phase:** This project is in its very early stages of development. Expect bugs, breaking changes, and incomplete features. It is not yet recommended for production environments.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
-Home Assistant Cowork is a next-generation AI assistant interface for Home Assistant (HA). Inspired by modern conversational AI interfaces, this project bridges the gap between natural language interaction and interactive smart home management.
+Cowork for Home Assistant is a next-generation AI assistant interface for Home Assistant (HA). Inspired by modern conversational AI interfaces, this project bridges the gap between natural language interaction and interactive smart home management.
 
 Instead of just returning text, Cowork dynamically renders native Home Assistant UI components (Lovelace cards, graphs, control entities) directly within the chat stream.
 
@@ -34,7 +34,7 @@ Instead of just returning text, Cowork dynamically renders native Home Assistant
 2. Go to HACS -> Integrations.
 3. Click the three dots in the top right and select "Custom repositories".
 4. Add `https://github.com/oded996/home-assistant-cowork` with Category `Integration`.
-5. Search for "Home Assistant Cowork" and click "Download".
+5. Search for "Cowork for Home Assistant" and click "Download".
 6. Restart Home Assistant.
 
 ### Option 2: Manual Installation
@@ -45,7 +45,7 @@ Instead of just returning text, Cowork dynamically renders native Home Assistant
 ## ⚙️ Configuration
 
 1. In the Home Assistant UI, go to **Settings** -> **Devices & Services**.
-2. Click **Add Integration** and search for **Home Assistant Cowork**.
+2. Click **Add Integration** and search for **Cowork for Home Assistant**.
 3. Follow the setup flow to complete the initial installation.
 
 ### Conversation Agent Setup (Required for Controls)

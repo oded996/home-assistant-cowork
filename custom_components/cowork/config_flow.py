@@ -1,4 +1,4 @@
-"""Config flow for Home Assistant Cowork."""
+"""Config flow for Cowork for Home Assistant."""
 from __future__ import annotations
 
 import voluptuous as vol
@@ -10,14 +10,14 @@ from homeassistant.components import conversation
 from .const import DOMAIN
 
 class CoworkConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """Handle a config flow for Home Assistant Cowork."""
+    """Handle a config flow for Cowork for Home Assistant."""
 
     VERSION = 1
 
     async def async_step_user(self, user_input: dict | None = None) -> FlowResult:
         """Handle the initial step."""
         if user_input is not None:
-            return self.async_create_entry(title="Home Assistant Cowork", data=user_input)
+            return self.async_create_entry(title="Cowork for Home Assistant", data=user_input)
 
         return self.async_show_form(
             step_id="user",
