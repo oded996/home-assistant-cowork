@@ -146,7 +146,7 @@ export class CoworkPanel extends LitElement {
   `;
 
   protected firstUpdated() {
-    console.log("Co-Work Panel v3.2.9 Loaded");
+    console.log("Cowork Panel v3.2.9 Loaded");
     const btn = this.shadowRoot?.getElementById('send-btn-manual');
     if (btn) {
       btn.onclick = () => this._sendMessage();
@@ -258,7 +258,7 @@ export class CoworkPanel extends LitElement {
     return html`
       <div class="header">
         <div class="header-left">
-          <span>Co-Work v3.2.9</span>
+          <span>Cowork v3.2.9</span>
         </div>
         <div class="header-right">
           <select @change="${this._handleAgentChange}">

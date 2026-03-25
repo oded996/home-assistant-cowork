@@ -11,11 +11,11 @@ _LOGGER = logging.getLogger(__name__)
 API_ID = "cowork_api"
 
 class CoworkAPI(llm.API):
-    """Co-Work LLM API."""
+    """Cowork LLM API."""
 
     def __init__(self, hass: HomeAssistant) -> None:
         """Initialize the API."""
-        super().__init__(hass=hass, id=API_ID, name="Co-Work Administrator API")
+        super().__init__(hass=hass, id=API_ID, name="Cowork Administrator API")
 
     async def async_get_api_instance(self, llm_context: llm.LLMContext) -> llm.APIInstance:
         """Return the API instance."""
@@ -23,7 +23,7 @@ class CoworkAPI(llm.API):
         return llm.APIInstance(
             api=self,
             api_prompt=(
-                "You are the Home Assistant Co-Work Administrator Agent. "
+                "You are the Home Assistant Cowork Administrator Agent. "
                 "Always reply with text. Use tools to query information when needed."
             ),
             llm_context=llm_context,

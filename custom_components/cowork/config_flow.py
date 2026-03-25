@@ -32,7 +32,7 @@ class CoworkConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
 
 class CoworkOptionsFlowHandler(config_entries.OptionsFlow):
-    """Handle Co-Work options."""
+    """Handle Cowork options."""
 
     def __init__(self, config_entry: config_entries.ConfigEntry) -> None:
         """Initialize options flow."""

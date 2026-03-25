@@ -21,7 +21,7 @@ HISTORY_STORAGE_KEY = "cowork.chat_history"
 HISTORY_STORAGE_VERSION = 1
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up Home Assistant Co-Work from a config entry."""
+    """Set up Home Assistant Cowork from a config entry."""
     _LOGGER.info("COWORK: async_setup_entry started")
     hass.data.setdefault(DOMAIN, {})
     hass.data[DOMAIN][entry.entry_id] = entry
@@ -54,7 +54,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         webcomponent_name="cowork-panel",
         frontend_url_path=DOMAIN,
         module_url=f"/cowork_static/cowork-panel.js?v={v}",
-        sidebar_title="Co-Work",
+        sidebar_title="Cowork",
         sidebar_icon="mdi:robot",
         require_admin=False,
         config={},
@@ -395,7 +395,7 @@ async def websocket_chat(
             context_block = "--- SYSTEM CONTEXT: REAL ENTITIES IN USER'S HOUSE ---\n" + "\n".join(found_states[:40]) + "\n------------------------------------------\n\n"
             
         system_instruction = (
-            "INSTRUCTIONS: You are the Home Assistant Co-Work Administrator Agent. "
+            "INSTRUCTIONS: You are the Home Assistant Cowork Administrator Agent. "
             "You have access to the real entities listed in the SYSTEM CONTEXT above. "
             "1. ALWAYS respond with conversational text. "
             "2. In ANY interaction with a device (showing, controlling, querying, or asking for history), you MUST output a UI card showing the device or graph. "
